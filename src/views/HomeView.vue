@@ -30,8 +30,8 @@
     </div>
   </div>
 
-  <div id="projects" class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 my-6">
-    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-blue-500 text-white">
+  <div id="projects" class="flex flex-col md:flex-row my-6">
+    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-blue-500 text-white my-3 md:my-0 md:mr-3 hover:-mt-1 hover:-ml-1 hover:mb-7 md:hover:mb-1 hover:mr-1">
       <div class="text-4xl font-semibold mr-5 mix-blend-hard-light m-8 mb-0">
         akazia dashboard
       </div>
@@ -42,7 +42,7 @@
         <img src="../assets/akazia-dashboard.png" class="-z-20 object-cover object-left-top mt-4 ml-8 bottom-0 top-0 right-0 h-full min-w-full bg-gray-200 rounded-tl-lg">
       </div>
     </card-container>
-    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-blue-300">
+    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-blue-300 my-3 md:my-0 md:ml-3 hover:-mt-1 hover:-mr-1 hover:mb-7 md:hover:mb-1 hover:ml-1">
       <div class="text-4xl text-gray-800 font-semibold mr-5 mix-blend-hard-light m-8 mb-0">
         akazia admin
       </div>
@@ -55,8 +55,8 @@
     </card-container>
   </div>
 
-  <div id="projects2" class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 my-6">
-    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-blue-900 text-white">
+  <div id="projects2" class="flex flex-col md:flex-row md:my-6">
+    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-blue-900 text-white my-3 md:my-0 md:mr-3 hover:-mt-1 hover:-ml-1 hover:mb-7 md:hover:mb-1 hover:mr-1">
       <div class="text-4xl font-semibold mr-5 mix-blend-hard-light m-8 mb-0">
         akazia admin
       </div>
@@ -67,7 +67,7 @@
         <img src="../assets/akazia-users-dark.png" class="-z-20 object-cover object-left-top mt-4 ml-8 bottom-0 top-0 right-0 h-full min-w-full bg-gray-200 rounded-tl-lg">
       </div>
     </card-container>
-    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-gray-300">
+    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-gray-300 my-3 md:my-0 md:ml-3 hover:-mt-1 hover:-mr-1 hover:mb-7 md:hover:mb-1 hover:ml-1">
       <div class="text-4xl text-gray-800 font-semibold mr-5 mix-blend-hard-light m-8 mb-0 ">
         vshop landing
       </div>
@@ -80,8 +80,8 @@
     </card-container>
   </div>
 
-  <div id="projects3" class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 my-6">
-    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-gray-100">
+  <div id="projects3" class="flex flex-col md:flex-row my-6">
+    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-gray-100 my-3 md:my-0 md:mr-3 hover:-mt-1 hover:-ml-1 hover:mb-7 md:hover:mb-1 hover:mr-1">
       <div class="text-4xl text-gray-800 font-semibold mr-5 mix-blend-hard-light m-8 mb-0">
         vshop dashboard
       </div>
@@ -92,7 +92,7 @@
       <img src="../assets/vshop.png" class="-z-20 object-cover object-left-top mt-4 ml-8 bottom-0 top-0 right-0 h-full min-w-full bg-gray-200 rounded-tl-lg">
       </div>
     </card-container>
-    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-gray-800 text-white">
+    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-gray-800 text-white my-3 md:my-0 md:ml-3 hover:-mt-1 hover:-mr-1 hover:mb-7 md:hover:mb-1 hover:ml-1">
       <div class="text-4xl font-semibold mr-5 mix-blend-hard-light m-8 mb-0">
         vshop dashboard
       </div>
@@ -112,22 +112,23 @@
     </div>
     <div class="text-lg text-gray-700 my-10">
       <div>Whether it's just to say hi or discuss an idea, I'm happy to talk.</div>
-      <div>Feel free to message me on Matrix <span class="font-mono rounded-lg bg-white bg-opacity-10 backdrop-hue-rotate-15 px-1.5 py-0.5">@flexusma:im.m4fx.de</span></div>
+      <div>Feel free to message me on Matrix <span class="font-mono rounded-lg bg-white bg-opacity-10 backdrop-hue-rotate-15 text-black px-1.5 py-0.5">@flexusma:im.m4fx.de</span></div>
     </div>
     <div class="flex space-y-4 sm:space-y-0 sm:space-x-4 flex-col sm:flex-row">
       <div class="flex items-center justify-center sm:justify-start space-x-4">
-        <a class="transition-all duration-500 bg-white p-2 rounded-xl shadow hover:bg-pink-600 hover:text-white cursor-pointer grow-0 flex items-center justify-center w-12 h-12">
+        <a href="https://dribbble.com/flexusma" target="_blank" class="transition-all duration-500 bg-white p-2 rounded-xl shadow hover:bg-pink-600 hover:text-white cursor-pointer grow-0 flex items-center justify-center w-12 h-12">
           <i class="mdi mdi-basketball text-2xl"></i>
         </a>
-        <a class="transition-all duration-500 bg-white p-2 rounded-xl shadow hover:bg-blue-600 hover:text-white cursor-pointer grow-0 flex items-center justify-center w-12 h-12">
+        <a href="https://discord.gg/Tkn3asxZyp" target="_blank" class="transition-all duration-500 bg-white p-2 rounded-xl shadow hover:bg-blue-600 hover:text-white cursor-pointer grow-0 flex items-center justify-center w-12 h-12">
           <i class="mdi mdi-forum text-2xl"></i>
         </a>
-        <a class="transition-all duration-500 bg-white p-2 rounded-xl shadow hover:bg-emerald-600 hover:text-white cursor-pointer grow-0 flex items-center justify-center w-12 h-12">
+        <a href="mailto:info@flexusma.de" target="_blank" class="transition-all duration-500 bg-white p-2 rounded-xl shadow hover:bg-emerald-600 hover:text-white cursor-pointer grow-0 flex items-center justify-center w-12 h-12">
           <i class="mdi mdi-at text-2xl"></i>
         </a>
       </div>
     </div>
   </card-container>
+
 </template>
 
 <script>
