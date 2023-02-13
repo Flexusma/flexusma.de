@@ -105,6 +105,29 @@
     </card-container>
   </div>
 
+  <div id="projects4" class="flex flex-col md:flex-row my-6">
+    <card-container class="backdrop-blur-md relative flex-grow tracking-tight bg-[#fdd505]">
+      <div class="absolute top-0 right-0 m-2 text-lg px-2 py-1 rounded hover:cursor-pointer shadow hover:shadow-lg z-30" :class="find_dark?'bg-gray-800 active:bg-gray-700 text-white':'bg-white active:bg-gray-100 text-gray-800'" @click="find_dark=!find_dark">
+        <i class="mdi mdi-weather-sunny" v-if="find_dark"></i>
+        <i class="mdi mdi-weather-night" v-else></i>
+      </div>
+
+      <div class="text-4xl font-semibold mr-5 mix-blend-hard-light m-8 mb-0">
+        <a href="https://find.flexu.li" target="_blank" class="underline">
+          find.flexu.li <span class="font-bold">&#8599;</span>
+        </a>
+      </div>
+      <div class="text-lg text-gray-600 m-8 mt-0">
+        Easy Object tracker and retrieval tool
+      </div>
+      <div class="flex">
+        <img src="../assets/find-light_cmpr.png" srcset="../assets/find-light_cmpr.png 400w, ../assets/find-light_big.png 1200w" class="-z-20 object-cover object-left-top mt-4 ml-8 bottom-0 top-0 right-0 h-full min-w-full rounded-tl-lg" v-show="!find_dark">
+        <img src="../assets/find-dark_cmpr.png" srcset="../assets/find-dark_cmpr.png 400w, ../assets/find-dark_big.png 1200w" class="-z-20 object-cover object-left-top mt-4 ml-8 bottom-0 top-0 right-0 h-full min-w-full rounded-tl-lg" v-show="find_dark">
+      </div>
+    </card-container>
+  </div>
+
+
   <card-container id="contact" class="backdrop-blur-md relative p-8 flex-grow tracking-tight my-6">
     <img src="../assets/logo_3d_bgm.png" class="object-cover absolute  -z-20 top-0 bottom-0 left-0 right-0 h-full w-full blur-2xl bg-gray-200">
     <div class="text-4xl font-semibold mr-5 mix-blend-overlay">
@@ -139,6 +162,11 @@ export default {
   name: 'HomeView',
   components: {
     CardContainer
+  },
+  data() {
+    return {
+      find_dark:false,
+    }
   }
 }
 </script>
